@@ -13,6 +13,9 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 
+# user authentication
+gem 'devise'
+
 # bootstrap-sass
 gem 'bootstrap-sass', '~> 3.4.1'
 

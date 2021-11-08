@@ -10,6 +10,7 @@ gem 'rails', '~> 6.1.3'
 
 # Use Postgres db support
 gem 'pg', '~> 1.2', '>= 1.2.3'
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 

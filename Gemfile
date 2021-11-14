@@ -39,6 +39,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'carrierwave', ""
 gem 'fog', '~> 1.37.0'
 
+# image resizing
+gem 'mini-magick'
 
 
 # Reduces boot times through caching; required in config/boot.rb

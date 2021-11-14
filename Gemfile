@@ -36,10 +36,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-# A classier solution for file uploads for Rails
+# A classier solution for file uploads for Rails and helps with access to the S3 buckets on the Amazon Web Server
 gem 'carrierwave', "0.10.0"
 
-
+# helps with access to the S3 buckets on the Amazon Web Server
 gem 'fog', '~> 1.37.0'
 
 # image resizing

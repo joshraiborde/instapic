@@ -36,7 +36,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'carrierwave', ""
+# A classier solution for file uploads for Rails
+gem 'carrierwave', "0.10.0"
+
+
 gem 'fog', '~> 1.37.0'
 
 # image resizing

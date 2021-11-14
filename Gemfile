@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 gem 'carrierwave', ""
+gem 'fog', '~> 1.37.0'
 
 
 

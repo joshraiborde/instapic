@@ -43,7 +43,7 @@ gem 'carrierwave', "0.10.0"
 gem 'fog', '~> 1.37.0'
 
 # image resizing
-gem 'mini-magick'
+gem 'mini_magick'
 
 
 # Reduces boot times through caching; required in config/boot.rb

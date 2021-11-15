@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.7'
 # A classier solution for file uploads for Rails and helps with access to the S3 buckets on the Amazon Web Server
 gem 'carrierwave', "0.10.0"
 
-# helps with access to the S3 buckets on the Amazon Web Server
+# works with the carrierwave gem, and helps with access to the S3 buckets on the Amazon Web Server
 gem 'fog', '~> 1.37.0'
 
 # image resizing
@@ -63,6 +63,9 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # local ENV vars
+  gem "figaro"
 end
 
 group :test do

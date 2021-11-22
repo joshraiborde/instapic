@@ -13,4 +13,8 @@ Turbolinks.start()
 ActiveStorage.start()
 
 // require jquery.min
+//= rails-ujs
+//= activestorage
+//= bootstrap.min
+//= require_tree
 // require styles.css
